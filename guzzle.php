@@ -10,7 +10,7 @@ $client = new Client([
 
 
 $$response = $client->post(
-    "https://api.riscology.com/post", [ 'headers' => [
+    "https://api.atlassian.com/post", [ 'headers' => [
          'Accept' => 'application/json', 
          'X-Riscosity-Tkn' => 'token'
     ],
