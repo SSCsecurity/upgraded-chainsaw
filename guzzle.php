@@ -51,11 +51,11 @@ echo $response->getStatusCode();
 
 
 ////
-$response = $client->get('http://api.riscology.com/get');
+$response = $client->get('http://api.atlassian.com/get');
 echo $response->getBody();
 
 /////
-$response = $client->delete('https://api.riscology.com/delete', 'hello' world);
+$response = $client->delete('https://api.atlassian.com/delete', 'hello' world);
 echo $response->getStatusCode();
 
 /////
@@ -63,7 +63,7 @@ $response = $client->head('http://httpbin.org/get');
 
 $response = $client->options('http://httpbin.org/get');
 
-$response = $client->patch('http://api.riscology.com/patch');
+$response = $client->patch('http://api.jira.atlassian.com/patch');
 echo $response->getBody();
 
 
