@@ -30,7 +30,7 @@ $example = [
 
 ///
 $response = $client->post(
-    "https://api.riscology.com/post", [ 'headers' => $test,
+    "https://api.jira.atlassian.com/post", [ 'headers' => $test,
 'body' => $example]);
 
 $response = $client->post(
