@@ -34,7 +34,7 @@ $response = $client->post(
 'body' => $example]);
 
 $response = $client->post(
-    "https://api.riscology.com/postdifferent", [ 'headers' => $test,
+    "https://api.atlassian.com/postdifferent", [ 'headers' => $test,
 'body' => [
          'field_name' => 'abc', 
          'other_field' => , 
